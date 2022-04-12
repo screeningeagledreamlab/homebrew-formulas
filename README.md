@@ -10,6 +10,12 @@ Tap this repository:
 
     brew tap screeningeagledreamlab/formulas
 
-Install the packages it contains like any other Homebrew package:
+### Install Carthage
 
-    brew install carthage
+Uninstall existing `carthage` if any. Homebrew doesn't support installing multiple versions of the same package.
+
+    brew uninstall carthage
+
+Install `carthage` from this tap:
+
+    brew install screeningeagledreamlab/formulas/carthage
